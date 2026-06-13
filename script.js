@@ -19,7 +19,7 @@ function createCoverHeart() {
   if (!env || env.style.display === "none") return;
   const el = document.createElement("div");
   el.classList.add("cover-heart");
-  el.innerHTML = ["❤️","💕","💖","🩷"][Math.floor(Math.random()*4)];
+  el.innerHTML = ["❤️","💕","💖","🩷","🤍"][Math.floor(Math.random()*4)];
   el.style.left     = Math.random()*100 + "vw";
   el.style.fontSize = (14+Math.random()*22) + "px";
   env.appendChild(el);
@@ -107,13 +107,19 @@ function initMain() {
 
 Happy 3rd Anniversary, sayang. 🌹
 
-Thank you for loving me through my best and worst moments.
+Three years. Three whole years of you choosing me, standing by me, and loving me not in spite of who I am, but because of who I am. And I still can't believe how lucky I am. 🥺
 
-I know I am not perfect, and I am truly sorry for every time I hurt you.
+Thank you for loving me through my best and worst moments. Thank you for staying when I was easy to love, and even more for staying when I wasn't. You've seen me at my strongest and my most broken. You've held my hand on sunny days and carried me through the storms. And you never once made me feel like I was too much. That kind of love… it changes a person. Truly. 💕
 
-You are my comfort, my happiness, and my favorite person.
+I know I am not perfect. I make mistakes. I say the wrong things. I let my fears and frustrations get the best of me sometimes. And I am truly, deeply sorry for every time I hurt you. Even the small moments—the sharp words, the silent treatments, the times I forgot to see things from your side. Please know that I never take your heart for granted. And I will spend every day after this trying to love you better. 🙏💔
 
-I love you today, tomorrow, and forever.
+You are my comfort—the only place in this chaotic world where I feel completely safe. You are my happiness—the reason my ordinary days feel like something to celebrate. And you are my favorite person—not just to laugh with, but to cry with, to grow with, to sit in silence with. There is no one else I would rather share my life, my mess, and my heart with. 🥰🏡
+
+So today, and every day after…
+I love you today. I love you tomorrow. And I love you forever.
+Not just because of the memories we've made, but because of the future I still dream of building—with you, always you. 🌹💍
+
+Happy 3rd anniversary, sayang. Thank you for being my everything. ❤️✨
 
 Love,
 Danial ❤️`;
@@ -158,10 +164,10 @@ Danial ❤️`;
 
   // LOVE BUTTON
   const loveMessages = [
-    "I Love You ❤️",
-    "I Love You More 💕",
-    "Infinity Love 💖",
-    "You Are My Everything 🌹",
+     "I Love You sayang ❤️",
+    "I Love You More mushh 💕",
+    "sayanggg omeyyy i 💖",
+    "You Are My Everything hanan 🌹",
     "Forever & Always Us 💗"
   ];
   let clickCount = 0;
