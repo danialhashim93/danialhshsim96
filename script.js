@@ -104,10 +104,9 @@ function initMain() {
 
   // TYPEWRITER
   const letterText = `My Dearest Hanan Syatirah,
-
 Happy 3rd Anniversary, sayang. 🌹
 
-Three years. Three whole years of you choosing me, standing by me, and loving me not in spite of who I am, but because of who I am. And I still can't believe how lucky I am. 🥺
+Three years. Three whole years of you choosing me, standing by me, and loving me—not in spite of who I am, but because of who I am. And I still can't believe how lucky I am. 🥺
 
 Thank you for loving me through my best and worst moments. Thank you for staying when I was easy to love, and even more for staying when I wasn't. You've seen me at my strongest and my most broken. You've held my hand on sunny days and carried me through the storms. And you never once made me feel like I was too much. That kind of love… it changes a person. Truly. 💕
 
