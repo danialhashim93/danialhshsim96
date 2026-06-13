@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 3rd Anniversary, Hanan ❤️</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ENVELOPE SCREEN -->
+<div id="envelope-screen">
+  <div class="sparkles" id="sparkleContainer"></div>
+  <div class="envelope-container">
+    <div class="env-glow"></div>
+    <img src="pelukk bear.jpeg" class="cover-bear" alt="Cute Bear">
+    <div class="env-card">
+      <div class="env-stamp">💌</div>
+      <p class="env-to">To: <strong>Hanan Syatirah</strong></p>
+      <p class="env-from">From: Danial, with all my heart ❤️</p>
+      <div class="env-line"></div>
+      <p class="env-hint">something special is waiting inside...</p>
+    </div>
+    <button id="openLetter">Open My Heart ❤️</button>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="mainContent">
+
+  <audio id="bgMusic" loop>
+    <source src="keshi - UNDERSTAND (Lyrics) - Unique Sound (128k).mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicBtn"><span class="music-icon">🎵</span><span class="music-label">lagu lovey dovey</span></button>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ 3 Years of Us ✦</div>
+      <img src="hanan i love.jpeg" class="hero-photo" alt="My love">
+      <h1>To My Dearest<br><span class="script-name">Hanan Syatirah</span></h1>
+      <p class="hero-sub">I nak mintak maaf yang i selalu sakit kan hati you, kecewa kan you, biar you sorang. And i nak wish happy beautiful 3 years together, sayang. 🌹</p>
+      <div class="hero-scroll">scroll down ↓</div>
+    </div>
+  </section>
+
+  <!-- JOURNEY PHOTO -->
+  <section class="section sec-photo">
+    <div class="section-label">✦ our beginning ✦</div>
+    <h2>Our Beautiful Journey</h2>
+    <div class="couple-photo">
+      <img src="first date.jpeg" alt="Danial & Hanan">
+      <div class="photo-tag">first date 🌸</div>
+    </div>
+    <div class="polaroid">
+      <img src="hanan berangan.jpeg" alt="Our Photo">
+      <p>My Favorite Person 🤍</p>
+    </div>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="section sec-counter">
+    <div class="section-label">✦ time flies ✦</div>
+    <h2>Time We've Been Together ❤️</h2>
+    <div class="counter">
+      <div class="counter-card"><h3 id="years">0</h3><p>Years</p></div>
+      <div class="counter-card"><h3 id="days">0</h3><p>Days</p></div>
+      <div class="counter-card"><h3 id="hours">0</h3><p>Hours</p></div>
+      <div class="counter-card"><h3 id="minutes">0</h3><p>Minutes</p></div>
+    </div>
+  </section>
+
+  <!-- APOLOGY -->
+  <section class="section sec-sorry">
+    <div class="section-label">✦ from my heart ✦</div>
+    <h2>I'm Sorry, Sayang 🤍</h2>
+    <div class="sorry-card">
+      <div class="sorry-icon">🥺</div>
+      <p>I'm sorry for every moment I've hurt you, every misunderstanding, and every time I failed to make you feel loved enough.</p>
+      <p>You deserve patience, care, and warmth every single day — and I promise to keep becoming better, for us.</p>
+      <p>Thank you for staying. Thank you for choosing me, again and again.</p>
+      <div class="sorry-sig">— Danial 🤍</div>
+    </div>
+  </section>
+
+  <!-- LETTER -->
+  <section class="section sec-letter">
+    <div class="section-label">✦ written for you ✦</div>
+    <h2>💌 My Letter To You</h2>
+    <div class="letter-card">
+      <div class="letter-lines"></div>
+      <p id="typewriter" class="typewriter-text"></p>
+    </div>
+  </section>
+
+  <!-- WHY I LOVE YOU -->
+  <section class="section sec-love">
+    <div class="section-label">✦ endless reasons ✦</div>
+    <h2>Why I Love You ❤️</h2>
+    <div class="love-grid">
+      <div class="love-card"><span class="love-emoji">😊</span><p>Your Smile</p></div>
+      <div class="love-card"><span class="love-emoji">💛</span><p>Your Kind Heart</p></div>
+      <div class="love-card"><span class="love-emoji">💪</span><p>Your Strength</p></div>
+      <div class="love-card"><span class="love-emoji">🤗</span><p>Your Support</p></div>
+      <div class="love-card"><span class="love-emoji">🥰</span><p>Your Cuteness</p></div>
+      <div class="love-card"><span class="love-emoji">💖</span><p>Everything About You</p></div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="section sec-video">
+    <div class="section-label">✦ captured moments ✦</div>
+    <h2>🎥 Our Beautiful Memories</h2>
+    <p class="section-sub">Every moment with you is my favorite memory ❤️</p>
+    <div class="video-wrapper">
+      <video controls>
+        <source src="haapy 3 years .mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- MEMORIES SLIDER -->
+  <section class="section sec-slider">
+    <div class="section-label">✦ gallery ✦</div>
+    <h2>📸 Our Memories Together</h2>
+    <div class="slider-wrap">
+      <div class="slider">
+
+        <!-- MEMORY 1 — 1 big + 2 right -->
+        <div class="slide active">
+          <div class="memory-board">
+            <div class="slide-badge">🌸 Chapter One</div>
+            <div class="grid-a">
+              <div class="mem-pic">
+                <img src="first date.jpeg" alt="Memory 1">
+                <span class="pic-sticker">first date 🌹</span>
+              </div>
+              <div class="mem-pic">
+                <img src="pusat sciene 3.jpeg" alt="Memory 1">
+                <span class="pic-sticker">science centre ✨</span>
+              </div>
+              <div class="mem-pic">
+                <img src="pusat sciene 2.jpeg" alt="Memory 1">
+                <span class="pic-sticker">together 💕</span>
+              </div>
+            </div>
+          </div>
+          <div class="mem-caption">
+            <span class="mem-caption-emoji">❤️</span>
+            <span class="mem-caption-text">The moment I realized how special you are</span>
+            <span class="mem-caption-emoji">❤️</span>
+          </div>
+        </div>
+
+        <!-- MEMORY 2 — 2x2 grid -->
+        <div class="slide">
+          <div class="memory-board">
+            <div class="slide-badge">🌷 Chapter Two</div>
+            <div class="grid-b">
+              <div class="mem-pic">
+                <img src="sec year.jpeg" alt="Memory 2">
+                <span class="pic-sticker">year two 💛</span>
+              </div>
+              <div class="mem-pic">
+                <img src="one u 1.jpeg" alt="Memory 2">
+                <span class="pic-sticker">1 Utama 🛍️</span>
+              </div>
+              <div class="mem-pic">
+                <img src="one u 2.jpeg" alt="Memory 2">
+                <span class="pic-sticker">us 🥰</span>
+              </div>
+              <div class="mem-pic">
+                <img src="one u 4.jpeg" alt="Memory 2">
+                <span class="pic-sticker">my fav person 💖</span>
+              </div>
+            </div>
+          </div>
+          <div class="mem-caption">
+            <span class="mem-caption-emoji">🌹</span>
+            <span class="mem-caption-text">No matter where we go, you're my favorite place</span>
+            <span class="mem-caption-emoji">🌹</span>
+          </div>
+        </div>
+
+        <!-- MEMORY 3 — 1 wide top + 3 bottom -->
+        <div class="slide">
+          <div class="memory-board">
+            <div class="slide-badge">💖 Chapter Three</div>
+            <div class="grid-c">
+              <div class="mem-pic">
+                <img src="camping with hanan.jpeg" alt="Memory 3">
+                <span class="pic-sticker">camping 🏕️</span>
+              </div>
+              <div class="mem-pic">
+                <img src="hanan dapat bunga 1.jpeg" alt="Memory 3">
+                <span class="pic-sticker">flowers for you 🌹</span>
+              </div>
+              <div class="mem-pic">
+                <img src="hanan dapat bunga 2.jpeg" alt="Memory 3">
+                <span class="pic-sticker">you smiled 🥺</span>
+              </div>
+              <div class="mem-pic">
+                <img src="hanan nak sweet 1.jpeg" alt="Memory 3">
+                <span class="pic-sticker">my sayang 💗</span>
+              </div>
+            </div>
+          </div>
+          <div class="mem-caption">
+            <span class="mem-caption-emoji">💖</span>
+            <span class="mem-caption-text">Thank you for staying beside me through everything</span>
+            <span class="mem-caption-emoji">💖</span>
+          </div>
+        </div>
+
+        <!-- MEMORY 4 — 2 left + 1 tall right (exactly 4 pics) -->
+        <div class="slide">
+          <div class="memory-board">
+            <div class="slide-badge">🎉 Year Three</div>
+            <div class="grid-d">
+              <div class="mem-pic">
+                <img src="third year.jpeg" alt="Memory 4">
+                <span class="pic-sticker">3 years 🎉</span>
+              </div>
+              <div class="mem-pic">
+                <img src="makan oriental kopi 1.JPG" alt="Memory 4">
+                <span class="pic-sticker">our spot ☕</span>
+              </div>
+              <div class="mem-pic">
+                <img src="makan oriental 2.JPG" alt="Memory 4">
+                <span class="pic-sticker">good food good us 🍜</span>
+              </div>
+              <div class="mem-pic">
+                <img src="aquaria.jpg" alt="Memory 4">
+                <span class="pic-sticker">aquaria 🐠</span>
+              </div>
+            </div>
+          </div>
+          <div class="mem-caption">
+            <span class="mem-caption-emoji">🎉</span>
+            <span class="mem-caption-text">Happy 3rd Anniversary, Hanan Syatirah</span>
+            <span class="mem-caption-emoji">🎉</span>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section sec-timeline">
+    <div class="section-label">✦ our story ✦</div>
+    <h2>❤️ Year By Year</h2>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-year">2023</div><div class="tl-card"><p>The beginning of our story 🌸</p></div></div>
+      <div class="tl-item"><div class="tl-year">2024</div><div class="tl-card"><p>Creating unforgettable memories 💛</p></div></div>
+      <div class="tl-item"><div class="tl-year">2025</div><div class="tl-card"><p>Growing stronger together 💪</p></div></div>
+      <div class="tl-item"><div class="tl-year">2026</div><div class="tl-card"><p>Celebrating 3 beautiful years 🎉</p></div></div>
+    </div>
+  </section>
+
+  <!-- LOVE BUTTON -->
+  <section class="section sec-btn">
+    <div class="section-label">✦ a little surprise ✦</div>
+    <h2>❤️ Click This</h2>
+    <button id="loveBtn">💖 Click If You Love Me 💖</button>
+    <p id="loveMessage"></p>
+  </section>
+
+  <!-- SUPPORT -->
+  <section class="section sec-support">
+    <div class="section-label">✦ just for you ✦</div>
+    <h2>🌸 For My Hardworking Girl</h2>
+    <div class="support-card">
+      <p>Sayang,</p>
+      <p>I know there are days when you feel tired, stressed, and overwhelmed. I want you to know — I am so incredibly proud of you. Not because of what you achieve, but because of the amazing person you are.</p>
+      <p>You work hard. You care deeply. You always try your best.</p>
+      <p>Whenever you feel exhausted, remember you are never alone. I will always be here — to support you, listen to you, and love you through all of it.</p>
+      <p>You are stronger than you think. And no matter what happens, I will always be proud of you. ❤️</p>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="section sec-final">
+    <div class="final-glow"></div>
+    <div class="final-content">
+      <p class="final-label">✦ always & forever ✦</p>
+      <h2>Happy 3rd Anniversary</h2>
+      <p class="final-name">Hanan Syatirah</p>
+      <p class="final-msg">Thank you for every smile, every memory, every moment.<br>I love you today, tomorrow, and forever.</p>
+      <p class="final-sig">— Danial ❤️</p>
+    </div>
+  </section>
+
+  <!-- SECRET -->
+  <div id="secretFlower">🌹</div>
+  <div id="secretPopup">
+    <div class="popup-box">
+      <button class="popup-close" id="closePopup">✕</button>
+      <div class="popup-icon">💌</div>
+      <h3>A Secret Just For You</h3>
+      <p>No matter how many years pass, you will always be my favorite hello and my hardest goodbye.</p>
+      <p class="popup-sig">Love, Danial ❤️</p>
+    </div>
+  </div>
+
+</div><!-- end #mainContent -->
+
+<script src="script.js"></script>
+</body>
+</html>475
